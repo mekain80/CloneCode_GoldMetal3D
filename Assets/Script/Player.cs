@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
 
     void Dodge()
     {
-        if (jDown && moveVec!=Vector3.zero && !isJump&&!isDodge)
+        if (jDown && moveVec!=Vector3.zero && !isJump && !isDodge)
         {
             dodgeVec = moveVec;
             speed *= 2;
